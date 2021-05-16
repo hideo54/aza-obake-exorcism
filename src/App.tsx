@@ -110,18 +110,16 @@ const App: React.FC = () => {
   const [ missCount, setMissCount ] = useState(0);
   const [ timer, setTimer ] = useState(PLAY_SECONDS);
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (isPlaying && timer > 0) {
-        const newItems = emptyItems.slice();
-        for (let i = 0; i < EACH_APPEAR_COUNT; i++) {
-          const j = random(0, WIDTH * HEIGHT - 1);
-          newItems[j] = random() < OBAKE_RATE ? 'aza-obake' : 'azaika';
-        }
-        setItems(newItems);
+    if (isPlaying && timer > 0) {
+      const gameProgress = 1 - (timer / PLAY_SECONDS);
+      const newItems = emptyItems.slice();
+      for (let i = 0; i < EACH_APPEAR_COUNT + gameProgress * 3; i++) {
+        const j = random(0, WIDTH * HEIGHT - 1);
+        newItems[j] = random() < OBAKE_RATE ? 'aza-obake' : 'azaika';
       }
-    }, APPEAR_INTERVAL_MS);
-    return () => { clearInterval(interval); };
-  }, [ isPlaying ]);
+      setItems(newItems);
+    }
+  }, [ isPlaying, timer ]);
   useEffect(() => {
     const interval = setInterval(() => {
       if (isPlaying) {
