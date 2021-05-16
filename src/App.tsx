@@ -72,25 +72,32 @@ const Item: React.FC<{
     props.item ? (
       props.item === 'aza-obake' ? (
         clicked ? (
-          <Img src='/aza-obake-exorcism/gaming-azaika.png' />
+          <Img src='/aza-obake-exorcism/gaming-azaika.png' draggable={false} />
         ) : (
-          <Img src='/aza-obake-exorcism/aza-obake.png' onClick={() => {
-            setClicked(true);
-            props.onExorcise();
-          }} />
+          <Img src='/aza-obake-exorcism/aza-obake.png'
+            draggable={false}
+            onClick={() => {
+              setClicked(true);
+              props.onExorcise();
+            }}
+          />
         )
       ) : (
         clicked ? (
-          <Img src='/aza-obake-exorcism/azaika-crying.png' />
+          <Img src='/aza-obake-exorcism/azaika-crying.png' draggable={false} />
         ) : (
-          <Img src='/aza-obake-exorcism/azaika.png' onClick={() => {
-            setClicked(true);
-            props.onMiss();
-          }} />
+          <Img
+            src='/aza-obake-exorcism/azaika.png'
+            draggable={false}
+            onClick={() => {
+              setClicked(true);
+              props.onMiss();
+            }}
+          />
         )
       )
     ) : (
-      <Img src='/empty.png' />
+      <Img src='/empty.png' draggable={false} />
     )
   );
 };
