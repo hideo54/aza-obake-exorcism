@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# aza-obake 除霊ゲーム
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+@azaika くんのおばけを除霊するゲームです。
 
-## Available Scripts
+間違って azaika くんを除霊しないように気をつけましょう。
 
-In the project directory, you can run:
+**このゲームは、[東京大学コンピュータサークル TSG](https://tsg.ne.jp/) が開催したイベント [TSG LIVE! 6](https://live.tsg.ne.jp) 内の「ライブゲームプログラミング 2日目」企画 (2021年5月16日) にて、作成されました。**
 
-### `npm start`
+録画は[こちら](https://www.youtube.com/watch?v=oitn3AiP6bM)で視聴可能です。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 画像
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+画像素材は、それぞれの権利者に許諾を得て使用・配布しています。
 
-### `npm test`
+## 放送後に加えた変更
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+基本的に、放送内で作り終えた状態のままにしてありますが、放送後に以下の修正を加えています:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 放送内で、デバッグ用にプレイ時間を5秒にしていましたが、これを戻し忘れていました。20秒に戻しました。
+* 急いで画像を押すとブラウザにしばしばドラッグとみなされてプレイしづらいという意見があったので、対処しました。
