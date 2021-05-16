@@ -97,10 +97,9 @@ const Item: React.FC<{
 
 const WIDTH = 5;
 const HEIGHT = 5;
-const APPEAR_INTERVAL_MS = 1000;
 const EACH_APPEAR_COUNT = 2;
 const OBAKE_RATE = 0.8;
-const PLAY_SECONDS = 5;
+const PLAY_SECONDS = 20;
 
 const App: React.FC = () => {
   const emptyItems: (ItemName | null)[] = Array(WIDTH * HEIGHT).fill(null);
