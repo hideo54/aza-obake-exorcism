@@ -72,18 +72,18 @@ const Item: React.FC<{
     props.item ? (
       props.item === 'aza-obake' ? (
         clicked ? (
-          <Img src='/gaming-azaika.png' />
+          <Img src='/aza-obake-exorcism/gaming-azaika.png' />
         ) : (
-          <Img src='/aza-obake.png' onClick={() => {
+          <Img src='/aza-obake-exorcism/aza-obake.png' onClick={() => {
             setClicked(true);
             props.onExorcise();
           }} />
         )
       ) : (
         clicked ? (
-          <Img src='/azaika-crying.png' />
+          <Img src='/aza-obake-exorcism/azaika-crying.png' />
         ) : (
-          <Img src='/azaika.png' onClick={() => {
+          <Img src='/aza-obake-exorcism/azaika.png' onClick={() => {
             setClicked(true);
             props.onMiss();
           }} />
