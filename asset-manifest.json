@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aza-obake-exorcism/static/css/main.45e2602d.chunk.css",
-    "main.js": "/aza-obake-exorcism/static/js/main.c00aaa64.chunk.js",
-    "main.js.map": "/aza-obake-exorcism/static/js/main.c00aaa64.chunk.js.map",
+    "main.js": "/aza-obake-exorcism/static/js/main.cb5ae0d0.chunk.js",
+    "main.js.map": "/aza-obake-exorcism/static/js/main.cb5ae0d0.chunk.js.map",
     "runtime-main.js": "/aza-obake-exorcism/static/js/runtime-main.0984a7bc.js",
     "runtime-main.js.map": "/aza-obake-exorcism/static/js/runtime-main.0984a7bc.js.map",
     "static/js/2.63e80601.chunk.js": "/aza-obake-exorcism/static/js/2.63e80601.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0984a7bc.js",
     "static/js/2.63e80601.chunk.js",
     "static/css/main.45e2602d.chunk.css",
-    "static/js/main.c00aaa64.chunk.js"
+    "static/js/main.cb5ae0d0.chunk.js"
   ]
 }
