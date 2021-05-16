@@ -1,6 +1,6 @@
 # aza-obake 除霊ゲーム
 
-@azaika くんのおばけを除霊するゲームです。
+[azaika](https://github.com/azaika) くんのおばけを除霊するゲームです。
 
 間違って azaika くんを除霊しないように気をつけましょう。
 
